@@ -13,14 +13,14 @@ body {
 
 p,
 li {
-    color: #444;
+    color: #e7dfdd;
     font-size: 14px;
 }
 
 /* Barra de navegação */
 header,
 .navbar {
-    background-color: #0b3c5d;
+    background-color: #0e0b16;
 }
 
 #nav-container {
@@ -96,4 +96,47 @@ header,
 
 .carousel-indicators .active {
     background-color: #f9cf00;
+}
+
+/* Loja Infoar */
+
+#infoar-area {
+    background-color: #0b3c5d;
+}
+
+.main-title {
+    color:#e7dfdd;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid #e7dfdd;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: #e7dfdd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #65DAF9;
+    margin-right: 15px;
 }
