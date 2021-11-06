@@ -107,13 +107,12 @@ header,
 .main-title {
     color: #e7dfdd;
     margin: 0 0 65px 0;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
 .main-title::after {
     content: "";
-    border-top: 2px solid #e7dfdd;
     width: 15%;
     position: absolute;
     top: 60px;
@@ -158,4 +157,110 @@ header,
     color: #e7dfdd;
     background-color: transparent;
     border-color: #65DAF9;
+}
+
+/* Time */
+
+.card-body {
+    text-align: center;
+    color: #e7dfdd;
+}
+
+#team-area {
+    background-color: #0f1626;
+    position: static;
+}
+
+#card-face {
+    background-color: #07889b;
+}
+
+#card-youtube {
+    background-color: #ff383f;
+}
+
+#card-twitch {
+    background-color: #813772;
+}
+
+#card-insta {
+    background-color: #eb6380;
+}
+
+/* Contato */
+
+#contact-area {
+    text-align: center;
+    /*background-color: #031424; */
+    background-color: #1a0315;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-tile {
+    font-weight: bold;
+    color: #3EC1D5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3EC1D5;
+}
+
+/* Copy */
+
+#rodape {
+    background-color: #6e3667;
+}
+
+#rodape .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#rodape .container p {
+    margin-bottom: 0;
+}
+
+#rodape .container a {
+    font-weight: bold;
+    color: #f9cf00;
+}
+
+#rodape .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
 }
