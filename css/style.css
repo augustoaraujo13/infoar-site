@@ -166,7 +166,7 @@ header,
     color: #e7dfdd;
 }
 
-#team-area {
+#rede-socias {
     background-color: #0f1626;
     position: static;
 }
@@ -362,7 +362,7 @@ header,
         width: 50%;
     }
 
-    #team-area .col-md-3 {
+    #rede-socias .col-md-3 {
         width: 50%;
         margin-bottom: 30px;
     }

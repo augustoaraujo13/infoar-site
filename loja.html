@@ -1,12 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Infoar - Loja</title>
+
+    <!-- Icone da pagina-->
+    <link rel="shortcut icon" type="imagex/png" href="img/Fone.ico">
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Importando o arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts JS-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+    <!-- Progress Bar -->
+    <script src="js/progressbar.min.js"></script>
+
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
 </head>
+
 <body>
-    <h1> Ola mundo</h1>
+
+    <!-- Barra de navegação-->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="home.html">
+                    <img id="logo" src="img/logo texto.png" alt="Infoar">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="inicio-menu" href="#">Inicio</span></a>
+                        <a class="nav-item nav-link" id="produtos-menu" href="#">Loja</span></a>
+                        <a class="nav-item nav-link" id="contato-menu" href="#">Contato</span></a>
+                        <a class="nav-item nav-link" id="sobre-menu" href="#">Sobre</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <!-- Card de redes sociais-->
+            <div id="rede-socias">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="main-title">Nossas redes sócias</h3>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/facebook-logo.png" class="card-img-top" alt="Imagem de Perfil 1">
+                                <div class="card-body" id="card-face">
+                                    <h5 class="card-title">Facebook</h5>
+                                    <p class="card-text">@Infoar-loja</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/instagram-logo.png" class="card-img-top" alt="Imagem de Perfil 2">
+                                <div class="card-body" id="card-insta">
+                                    <h5 class="card-title">Instagram</h5>
+                                    <p class="card-text">@infoar.loja</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/youtube-logo.png" class="card-img-top" alt="Imagem de Perfil 3">
+                                <div class="card-body" id="card-youtube">
+                                    <h5 class="card-title">Youtube</h5>
+                                    <p class="card-text">Canal Infoar</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="img/twitch-logo.png" class="card-img-top" alt="Imagem de Perfil 4">
+                                <div class="card-body" id="card-twitch">
+                                    <h5 class="card-title">Twitch</h5>
+                                    <p class="card-text">infoarloja</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Desenvolvido por Augusto Araujo <a href="https://www.linkedin.com/in/augustoaraujo13/"
+                                target="_blank">Linkedin</a>
+                            &copy; 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
