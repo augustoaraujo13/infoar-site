@@ -159,7 +159,7 @@ header,
     border-color: #65DAF9;
 }
 
-/* Time */
+/* Redes socias*/
 
 .card-body {
     text-align: center;
@@ -263,4 +263,114 @@ header,
 #rodape .container a:hover {
     text-decoration: none;
     color: #3EC1D5;
+}
+
+
+/* Resposividade*/
+
+@media(max-width: 768px) {
+
+    /* gerais */
+
+    .container {
+        padding: 20px 0;
+    }
+
+    /* carrousel */
+
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* about */
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* data */
+    .circle-box div {
+        padding: 0 10px;
+    }
+
+    #data-area p {
+        font-size: 16px;
+    }
+
+    /* Rede socias */
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 425px) {
+
+    /* Carrousel */
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-caption .main-btn {
+
+        font-size: 14px;
+    }
+
+    /* about */
+    .main-title {
+        font-size: 30px;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* data */
+    .circle-box {
+        width: 50%;
+    }
+
+    #team-area .col-md-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* entre em contato */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
 }
